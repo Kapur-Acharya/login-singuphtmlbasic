@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(162, 160, 160);
+    color: white;
+    margin: 0px;
+}
+
+nav{
+    margin: 0px;
+    padding: 15px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px 0px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(255,255,255,0.75);
+    top: 0;
+    position: sticky;
+}
+
+.nav-left img{
+    align-items: center;
+    display: flex;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    border: 3px solid white;
+
+}
+.nav-left img:hover {
+    border-color: tomato;
+}
+
+
+.nav-right{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.nav-right-items{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-transform: uppercase;
+}
+
+.nav-right button{
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+.home:hover{
+    color: tomato;
+}
+.about:hover{
+    color: tomato;
+}
+.contact:hover{
+    color: tomato;
+}
+
+.signup button:hover{
+    background-color: tomato;
+    color: white;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 100px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 470;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    padding:70px;
+    gap: 5px;
+    border-radius: 18px;
+    background-color: rgb(203, 201, 201);
+}
+form input {
+    background-color: lightgray;
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+
+.form-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+.form-submit input {
+    padding: 5px;
+    border-radius: 9px;
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
